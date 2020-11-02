@@ -1,0 +1,105 @@
+body{
+    background-color: #9d65c9;
+    overflow-x: hidden;
+}
+.uppernav{
+    background-color: #2a3d66;
+    width: 100%;
+    height: 14vh;
+    text-align: center;
+    
+}
+input[type=text]{
+    background-color: #9d65c9;
+
+}
+.ytlogo{
+    width: 15vh;
+    margin-top: 1rem;
+}
+.minitube{
+    font-size: 7vh;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*** COLORS ***/
+/*** DEMO ***/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: #913D88;
+  font: 13px monospace;
+  color: #FFFFFF;
+}
+p {
+  margin-top: 30px;
+}
+
+.searchdiv{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.btn{
+    margin-top: 2vh;
+    background-color: #2a3d66;
+
+}
+.btn:hover{
+    background-color: #9d65c9;
+    color: white ;
+}
+
+/*** STYLES ***/
+.search {
+  display: inline-block;
+  position: relative;
+  height: 35px;
+  width: 35px;
+  box-sizing: border-box;
+  margin: 0px 8px 7px 0px;
+  padding: 7px 9px 0px 9px;
+  border: 3px solid #FFFFFF;
+  border-radius: 25px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: text;
+}
+.search:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  right: -5px;
+  top: 21px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.search.active,
+.search:hover {
+  width: 200px;
+  margin-right: 0px;
+}
+.search.active:after,
+.search:hover:after {
+  height: 0px;
+}
+.search input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: inherit;
+  background: transparent;
+  outline-width: 0px;
+}
