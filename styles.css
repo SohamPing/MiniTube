@@ -103,3 +103,7 @@ p {
   background: transparent;
   outline-width: 0px;
 }
+.abc {
+    margin-right: 0px;
+    border: none;
+}
