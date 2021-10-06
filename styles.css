@@ -48,6 +48,7 @@ p {
 .btn{
     margin-top: 2vh;
     background-color: #2a3d66;
+    margin-bottom: 14px;
 
 }
 .btn:hover{
@@ -88,6 +89,7 @@ p {
 .search:hover {
   width: 200px;
   margin-right: 0px;
+  margin-top: 56px;
 }
 .search.active:after,
 .search:hover:after {
