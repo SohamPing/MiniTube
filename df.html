@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniTube</title>
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dfe.css">
+</head>
+<body>
+    <div>
+            <div class="uppernav" >
+                <img class="ytlogo" src="https://raw.githubusercontent.com/SohamPing/MiniTube/master/img/yt.png" alt="">
+                <div>
+                    <h1 style="margin:2rem 0px 2rem 0px; font-size:85px;" class="minitube" >MiniTube</h1>
+                </div>
+                
+            </div>
+    </div>
+    <div style="margin-top:2vh" class="searchdiv">
+        <form style="margin: 120px 8px 7px 0px;" id="submitform" >
+            <label class="search btn-info " for="inpt_search">
+                <input  id="inpt_search" type="search" autocomplete="false" >
+            </label>
+            <br>
+            <button type="submit" id="searchbutton" class="btn btn-m m-0 ">
+                Search
+            </button>
+        </form>
+    </div>
+    <div class="row" >
+        <div  class="col-md-12">
+            <div id="videos" style="margin-top: 100px;" >
+
+            </div>
+        </div>
+    </div>
+         
+    
+    <script src="app.js"></script>
+</body>
+</html>

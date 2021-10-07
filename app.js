@@ -21,8 +21,9 @@ $(document).ready(function(){
 	})
 
 	function searchvideo(key,search,videonumber){
-		
+        $('#videos').append('<h2 style="color:yellow; margin-left:24px; font-style: italic;"><u>Our Search Results</u></h2>');
 		$.get('https://www.googleapis.com/youtube/v3/search?key=AIzaSyCmUrKMbdRpvJFJBQtIwk_7PW-qnWm9GDI&part=snippet&type=video&maxResults='+videonumber+'&q='+search,function(data){
+            
 			console.log(data)
 			data.items.forEach(item  => {
 				
