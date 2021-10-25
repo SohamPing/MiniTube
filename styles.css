@@ -55,6 +55,10 @@ p {
     color: white ;
 }
 
+.black_theme{
+    color:black;
+}
+
 /*** STYLES ***/
 .search {
   display: inline-block;
