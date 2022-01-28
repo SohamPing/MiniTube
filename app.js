@@ -26,7 +26,7 @@ $(document).ready(function(){
 			console.log(data)
 			data.items.forEach(item  => {
 				
-				video.push(`<iframe width="480" height="360" src="https://www.youtube.com/embed/${item.id.videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+				video.push(`<iframe width="720" height="480" src="https://www.youtube.com/embed/${item.id.videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 				)
 				
 
